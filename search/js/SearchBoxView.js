@@ -1,5 +1,5 @@
-const SearchBoxView = ({ fixed }) => (
-  <section className="container">
+const SearchBoxView = ({ fixed, refs }) => (
+  <section className="container" ref={refs.getSearchBar}>
     <div className="row">
       <div className="col-sm-12">
         <input
