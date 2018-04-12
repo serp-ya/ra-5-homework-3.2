@@ -20,7 +20,10 @@ class SearchBox extends React.Component {
   
 
   render() {
-    return <SearchBoxView refs={{getSearchBar: this.getSearchBar}} fixed={this.state.fixed} />
+    return (<SearchBoxView 
+      refs={{getSearchBar: this.getSearchBar}} 
+      fixed={this.state.fixed} 
+    />);
   }
 
 
