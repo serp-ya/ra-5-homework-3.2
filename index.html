@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>lifecycle</title>
+</head>
+<style>
+  .body {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .main {
+    padding: 120px 15% 240px;
+    width: 1200px;
+  }
+
+  .menu {
+    border: 2px solid;
+    border-radius: 10px;
+  }
+
+  .menu__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px 15px 25px;
+    margin: 0;
+  }
+
+  .menu__list-item {
+    display: flex;
+  }
+</style>
+<body class="body">
+
+  <div class="main">
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__list-item">
+          <a href="./search" class="link link_theme_main" target="_blank">
+            Плавающая поисковая строка
+          </a>
+        </li>
+
+
+        <li class="menu__list-item">
+          <a href="./lib" class="link link_theme_main" target="_blank">
+            Прогресс-бар на canvas
+          </a>
+        </li>
+
+
+        <li class="menu__list-item">
+          <a href="./shop" class="link link_theme_main" target="_blank">
+            Корзина
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+</body>
+</html>

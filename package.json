@@ -1,0 +1,11 @@
+{
+  "name": "lifecycle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/serp-ya/ra-5-homework-3.2.git",
+  "author": "serp-ya <sergei.kundryukov1989@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync start -s -f \".\""
+  }
+}
